@@ -1,0 +1,30 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (max-width: 767px) {
+    .container nav {
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    ul li a {
+        display: none;
+    }
+    .decentralized h4 {
+        font-size: 45px;
+    }
+    .bodyimg {
+        height: 200px;
+    }
+    .bar {
+        display: inline;
+    }
+    .header {
+        float: left;
+        margin-top: -5px;
+    }
+    .box {
+        text-align: center;
+        margin-bottom: -30px;
+    }
+   
+}
+
